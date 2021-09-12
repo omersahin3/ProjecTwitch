@@ -26,6 +26,7 @@ body {
         justify-content: space-between;
         align-items: center;
         width: 21%;
+        min-width: 190px;
     }
     .left a {
         color: white;
@@ -70,6 +71,7 @@ body {
     }
     .right {
         width: 18%;
+        min-width: 200px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -116,7 +118,8 @@ body {
 }
     .sidebar {
         background-color: #1F1F23;;
-        width: 240px;
+        width: 16%;
+        min-width: 230px;
         height: calc(100vh - 7vh);
         display: flex;
         flex-direction: column;
@@ -445,12 +448,6 @@ hr{
 @media (max-width: 1439.98px) { 
     .left a {
         font-size: 13px;
-    }
-    .left {
-        width: 240px;
-    }
-    .right {
-        width: 240px;
     }
  }
  @media screen and (min-width: 1200px) {
