@@ -3,11 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/assets/styles/main3.css">
+    <link rel="stylesheet" href="/assets/styles/main.css">
     <link rel="stylesheet" href="/assets/styles/slider.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <title>Twitch</title>
 </head>
 
@@ -15,79 +16,70 @@
     <div class="main">
         <div class="header">
             <div class="left">
-                <div class="l1">
-                    <div class="icon"><a href="#"><img src="/assets/images/twt.png"></a></div>
-                </div>
-                <div class="l2">
-                        <a href="#directory/following" id="alink">Takip Edilen</a>
-                        <a href="#directory" id="alink">Gözat</a>
-                        <a href="#directory/following" id="hide2"><img src="assets\images\follow.png"id="hide2"></a>
-                        <a href="#directory" id="hide2"><img src="assets\images\doc.png"id="hide2"></a>
-                </div>
-                <div class="l3"><a href="#"><i class="fas fa-ellipsis-v"></i></a></div>
+                <a href="#"><img src="/assets/images/twt.png"></a>
+                <a href="#directory/following" id="alink">Takip Edilen</a>
+                <a href="#directory" id="alink">Gözat</a>
+                <a href="#directory/following" id="hide2"><img src="assets\images\follow.png" id="hide2"></a>
+                <a href="#directory" id="hide2"><img src="assets\images\doc.png" id="hide2"></a>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
             </div>
             <div class="center">
-                
                 <input type="text" placeholder="Ne izlemek İstiyorsunuz?" name="search">
                 <button type="submit"><i class="fa fa-search"></i></button>
-                <img src="/assets/images/search.png" id="hide0">
             </div>
             <div class="right">
-                <div class="r1">
-                    <a href="#"><img src="/assets/images/crown.png"></a>
-                </div>
-                <div class="r2">
-                    <a href="#"><img src="/assets/images/mailicon.png"></a>
-                </div>
-                <div class="r3">
-                    <a href="#"><img src="/assets/images/comment.png"></a>
-                </div>
-                <div class="r4">
-                    <a href="#"><img src="/assets/images/bit.png" id="hide1">
-                    <button type="button"><img src="/assets/images/bit.png"><p>Bit Al</p></button>
-                </div>
-                <div class="r5">
-                    <a href="#"> <img src="/assets/images/profile.png"></a>
-                </div>
+                <a href="#" id="ra"><img src="/assets/images/search.png" id="hide1"></a>
+                <a href="#" id="ra"><img src="/assets/images/crown.png"></a>
+                <a href="#" id="ra"><img src="/assets/images/mailicon.png"></a>
+                <a href="#" id="ra"><img src="/assets/images/comment.png"></a>
+                <button type="button"><img src="/assets/images/bit.png" id="visible1">
+                    <p> Bit Al</p>
+                </button>
+                <a href="#" id="profile"> <img src="/assets/images/profile.png"></a>
             </div>
         </div>
         <div class="body">
-            <div class="sidebar" id="sidebar">
-                <div class="side-1">
+            <div class="sidebar">
+                <div class="side1">
                     <div class="s1">
-                        <a href="#directory/following" id="hide3"><img src="assets\images\follow.png"></a>
                         <p id="s11">TAKİP EDİLEN KANALLAR</p>
                         <button onclick="myFunction()" id="s11"><img src="/assets/images/left.png"></button>
                         <button onclick="myFunction2()" id="right"><img src="/assets/images/left.png"></button>
                     </div>
                     <div class="s2">
-                        <a href="#"><div class="s21">
-                            <div class="s211">
-                                <img src="/assets/images/img1.png">
-                                <div class="s2111" id="s2111">
-                                    <h4>samedgungor2013</h4>
-                                    <p>Dying Light</p>
+                        <img src="assets\images\follow.png" id="hide3">
+                        <a href="#">
+                            <div class="s21">
+                                <div class="s211">
+                                    <img src="/assets/images/img1.png">
+                                    <div class="s2111" id="s2111">
+                                        <h4>samedgungor2013</h4>
+                                        <p>Dying Light</p>
+                                    </div>
+                                </div>
+                                <div class="s212" id="s212">
+                                    <div class="renk"></div>
+                                    <p>269</p>
                                 </div>
                             </div>
-                            <div class="s212" id="s212">
-                                <div class="renk"></div>
-                                <p>269</p>
-                            </div>
-                        </div></a>
-                        <a href="#"><div class="s21">
-                            <div class="s211">
-                                <img src="/assets/images/img2.png">
-                                <div class="s2111" id="s2111">
-                                    <h4>Warlicia</h4>
-                                    <p>VALORANT</p>
+                        </a>
+                        <a href="#">
+                            <div class="s21">
+                                <div class="s211">
+                                    <img src="/assets/images/img2.png">
+                                    <div class="s2111" id="s2111">
+                                        <h4>Warlicia</h4>
+                                        <p>VALORANT</p>
+                                    </div>
+                                </div>
+                                <div class="s212" id="s212">
+                                    <div class="renk"></div>
+                                    <p>78</p>
                                 </div>
                             </div>
-                            <div class="s212" id="s212">
-                                <div class="renk"></div>
-                                <p>78</p>
-                            </div>
-                        </div></a>
-                        <a href="#"><div class="s21">
+                        </a>
+                        <a href="#">
+                            <div class="s21">
                                 <div class="s211">
                                     <img src="/assets/images/img3.png">
                                     <div class="s2111" id="s2111">
@@ -99,8 +91,10 @@
                                     <div class="renk"></div>
                                     <p>54</p>
                                 </div>
-                            </div></a>
-                        <a href="#"><div class="s21">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s21">
                                 <div class="s211">
                                     <img src="/assets/images/img4.png">
                                     <div class="s2111" id="s2111">
@@ -112,8 +106,10 @@
                                     <div class="renk" style="display: none;"></div>
                                     <p>Çevrimdışı</p>
                                 </div>
-                            </div></a>
-                        <a href="#"><div class="s21">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s21">
                                 <div class="s211">
                                     <img src="/assets/images/img5.png">
                                     <div class="s2111" id="s2111">
@@ -125,17 +121,21 @@
                                     <div class="renk" style="display: none;"></div>
                                     <p>Çevrimdışı</p>
                                 </div>
-                            </div></a>
-
+                            </div>
+                        </a>
                     </div>
-                    <div class="s3" id="s3"><a href="#"><p>Daha Fazla Göster</p></a></div>
+                    <div class="s3" id="s3"><a href="#">
+                            <p>Daha Fazla Göster</p>
+                        </a></div>
                 </div>
-                <div class="side-1">
+                <div class="side1">
                     <div class="s1" id="s1">
                         <p>ÖNERİLEN KANALLAR</p>
                     </div>
                     <div class="s2">
-                        <a href="#"><div class="s21">
+                        <img src="assets\images\onerilenkanallar.png" id="hide3">
+                        <a href="#">
+                            <div class="s21">
                                 <div class="s211">
                                     <img src="/assets/images/img6.png">
                                     <div class="s2111" id="s2111">
@@ -147,8 +147,10 @@
                                     <div class="renk"></div>
                                     <p>110</p>
                                 </div>
-                            </div></a>
-                        <a href="#"><div class="s21">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s21">
                                 <div class="s211">
                                     <img src="/assets/images/img7.png">
                                     <div class="s2111" id="s2111">
@@ -160,8 +162,10 @@
                                     <div class="renk"></div>
                                     <p>2,1 B</p>
                                 </div>
-                            </div></a>
-                        <a href="#"><div class="s21">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s21">
                                 <div class="s211">
                                     <img src="/assets/images/img8.png">
                                     <div class="s2111" id="s2111">
@@ -173,8 +177,10 @@
                                     <div class="renk"></div>
                                     <p>116</p>
                                 </div>
-                            </div></a>
-                        <a href="#"><div class="s21">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s21">
                                 <div class="s211">
                                     <img src="/assets/images/img9.png">
                                     <div class="s2111" id="s2111">
@@ -186,8 +192,10 @@
                                     <div class="renk"></div>
                                     <p>22</p>
                                 </div>
-                            </div></a>
-                        <a href="#"><div class="s21">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s21">
                                 <div class="s211">
                                     <img src="/assets/images/img10.png">
                                     <div class="s2111" id="s2111">
@@ -199,8 +207,10 @@
                                     <div class="renk"></div>
                                     <p>192</p>
                                 </div>
-                            </div></a>
-                        <a href="#"><div class="s21">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="s21">
                                 <div class="s211">
                                     <img src="/assets/images/img10.png">
                                     <div class="s2111" id="s2111">
@@ -212,20 +222,21 @@
                                     <div class="renk"></div>
                                     <p>192</p>
                                 </div>
-                            </div></a>
+                            </div>
+                        </a>
 
                     </div>
-                    <div class="s3" id="s3"><a href="#"><p>Daha Fazla Göster</p></a></div>
+                    <div class="s3" id="s3"><a href="#">
+                            <p>Daha Fazla Göster</p>
+                        </a></div>
                 </div>
-                <div class="side-2" id="side-2">
-                    <form id="form">
-                        <input type="text" placeholder="Arkadaş Eklemek İçin Ara" name="search">
-                    </form>
+                <div class="side2" id="side2">
+                    <input type="text" placeholder="   Arkadaş Eklemek İçin Ara" name="search">
                 </div>
             </div>
             <div class="content">
-                <div class="cont-1">
-                    <!--<div class="slideshow-container">
+                <div class="cont1">
+                    <div class="slideshow-container">
                         <div class="mySlides fade">
                             <div class="numbertext">1 / 3</div>
                             <iframe width="500" height="300" src="https://www.youtube.com/embed/f_cfKzbRwCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -251,33 +262,22 @@
                             <span class="dot" onclick="currentSlide(2)"></span>
                             <span class="dot" onclick="currentSlide(3)"></span>
                         </div>
-                
-                    </div>-->
-                    <div class="contentcover">
-                        <div class="arrow">
-                            <a><i class="fas fa-chevron-left"></i></a>
-                        </div>
-                        <div class="mainvideos">
-                            <div class="mainvid">
-                                <iframe width="500" height="300" src="https://www.youtube.com/embed/f_cfKzbRwCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="arrow">
-                            <a><i class="fas fa-chevron-right"></i></a>
-                        </div>
-
-
                     </div>
                 </div>
-                <div class="cont-2">
-                    <div class="c21"> <h4>Seveceğinizi düşündüğümüz Canlı kanallar</h4></div>
+                <div class="cont2">
+                    <div class="c21">
+                        <h4>Seveceğinizi düşündüğümüz Canlı kanallar</h4>
+                    </div>
                     <div class="c22">
                         <div class="c221">
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/f_cfKzbRwCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/f_cfKzbRwCo"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             <div class="c2211">
                                 <div class="c22111">
-                                    <img src="/assets/images/img1.png">                                
-                                    <div class="c221111">   
+                                    <img src="/assets/images/img1.png">
+                                    <div class="c221111">
                                         <h4>MACERA BAŞLASIN</h4>
                                         <p>samedgungor2013</p>
                                         <p>Dying Light</p>
@@ -292,11 +292,14 @@
                             </div>
                         </div>
                         <div class="c221">
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/bjesvxTCnwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/bjesvxTCnwE"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             <div class="c2211">
                                 <div class="c22111">
-                                    <img src="/assets/images/jaho.png">                                
-                                    <div class="c221111">   
+                                    <img src="/assets/images/jaho.png">
+                                    <div class="c221111">
                                         <h4>Pummel Party [ #1 ]</h4>
                                         <p>Jahrein</p>
                                         <p>Pummel Party</p>
@@ -311,12 +314,15 @@
                             </div>
                         </div>
                         <div class="c221">
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/AyeMMydC8UQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/AyeMMydC8UQ"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             <div class="c2211">
                                 <div class="c22111">
-                                    <img src="/assets/images/closer.png">                                
-                                    <div class="c221111">   
-                                        <h4>100Thieves Ofis VLOG  QWEJQJEQWEQWEWQE</h4>
+                                    <img src="/assets/images/closer.png">
+                                    <div class="c221111">
+                                        <h4>100Thieves Ofis VLOG | MİLYON DOLARLIK TUR!</h4>
                                         <p>Closer</p>
                                         <p>Sadece Sohbet</p>
                                         <div class="category">
@@ -330,11 +336,14 @@
                             </div>
                         </div>
                         <div class="c221">
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/aQy7y1bAKn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/aQy7y1bAKn4"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             <div class="c2211">
                                 <div class="c22111">
-                                    <img src="/assets/images/img7.png">                                
-                                    <div class="c221111">   
+                                    <img src="/assets/images/img7.png">
+                                    <div class="c221111">
                                         <h4>CADILAR MECLİSİNDEYİZ</h4>
                                         <p>Uthenera</p>
                                         <p>Teamfight Tactics</p>
@@ -348,7 +357,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="line">
@@ -356,22 +365,24 @@
                         <hr>
                     </div>
                     <div class="viewmore">
-                       <button class="morebutton">
-                           Daha fazla göster &nbsp; &nbsp; <i class="fas fa-angle-down"></i>
-                        </button>                      
+                        <button class="morebutton">
+                           <p>Daha fazla göster</p> &nbsp; &nbsp; <i class="fas fa-angle-down"></i>
+                        </button>
                     </div>
                     <div class="hrline">
                         <hr>
                     </div>
                 </div>
-                <div class="cont-3">
+                <div class="cont3">
                     <div class="c31"><img src="/assets/images/1.PNG"></div>
                     <div class="c31"><img src="/assets/images/2.PNG"></div>
                     <div class="c31"><img src="/assets/images/3.PNG"></div>
                     <div class="c31"><img src="/assets/images/4.PNG"></div>
                 </div>
-                <div class="cont-4"><h4>Seveceğinizi düşündüğümüz <a href="#">Kategoriler</a></h4></div>
-                <div class="cont-5">
+                <div class="cont4">
+                    <h4>Seveceğinizi düşündüğümüz <a href="#">Kategoriler</a></h4>
+                </div>
+                <div class="cont5">
                     <div class="c51">
                         <img src="assets\images\katg1.jpg">
                         <div class="c511">
@@ -407,7 +418,7 @@
                         <div class="c511">
                             <div class="c5111">
                                 <h4>VALORANT</h4>
-                                <p>57,3  B izleyici</p>
+                                <p>57,3 B izleyici</p>
                                 <div class="category">
                                     <a href="#">Nişancı Oyunu</a>
                                 </div>
@@ -437,7 +448,7 @@
                         <div class="c511">
                             <div class="c5111">
                                 <h4>League Of Legends</h4>
-                                <p>157,2  B izleyici</p>
+                                <p>157,2 B izleyici</p>
                                 <div class="category">
                                     <a href="#">MOBA</a>
                                 </div>
@@ -497,15 +508,20 @@
                     <hr>
                 </div>
                 <!-- cont2 tekrarı-->
-                <div class="cont-2">
-                    <div class="c21"><h4><a href="#">samedgungor2013</a> çevrimdışıyken</h4></div>
+                <div class="cont2">
+                    <div class="c21">
+                        <h4>Seveceğinizi düşündüğümüz Canlı kanallar</h4>
+                    </div>
                     <div class="c22">
                         <div class="c221">
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/f_cfKzbRwCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/f_cfKzbRwCo"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             <div class="c2211">
                                 <div class="c22111">
-                                    <img src="/assets/images/img1.png">                                
-                                    <div class="c221111">   
+                                    <img src="/assets/images/img1.png">
+                                    <div class="c221111">
                                         <h4>MACERA BAŞLASIN</h4>
                                         <p>samedgungor2013</p>
                                         <p>Dying Light</p>
@@ -520,11 +536,14 @@
                             </div>
                         </div>
                         <div class="c221">
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/bjesvxTCnwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/bjesvxTCnwE"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             <div class="c2211">
                                 <div class="c22111">
-                                    <img src="/assets/images/jaho.png">                                
-                                    <div class="c221111">   
+                                    <img src="/assets/images/jaho.png">
+                                    <div class="c221111">
                                         <h4>Pummel Party [ #1 ]</h4>
                                         <p>Jahrein</p>
                                         <p>Pummel Party</p>
@@ -539,11 +558,14 @@
                             </div>
                         </div>
                         <div class="c221">
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/AyeMMydC8UQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/AyeMMydC8UQ"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             <div class="c2211">
                                 <div class="c22111">
-                                    <img src="/assets/images/closer.png">                                
-                                    <div class="c221111">   
+                                    <img src="/assets/images/closer.png">
+                                    <div class="c221111">
                                         <h4>100Thieves Ofis VLOG | MİLYON DOLARLIK TUR!</h4>
                                         <p>Closer</p>
                                         <p>Sadece Sohbet</p>
@@ -558,11 +580,14 @@
                             </div>
                         </div>
                         <div class="c221">
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/aQy7y1bAKn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/aQy7y1bAKn4"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             <div class="c2211">
                                 <div class="c22111">
-                                    <img src="/assets/images/img7.png">                                
-                                    <div class="c221111">   
+                                    <img src="/assets/images/img7.png">
+                                    <div class="c221111">
                                         <h4>CADILAR MECLİSİNDEYİZ</h4>
                                         <p>Uthenera</p>
                                         <p>Teamfight Tactics</p>
@@ -576,7 +601,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="line">
@@ -584,23 +609,28 @@
                         <hr>
                     </div>
                     <div class="viewmore">
-                       <button class="morebutton">
-                           Daha fazla göster &nbsp; &nbsp; <i class="fas fa-angle-down"></i>
-                        </button>                      
+                        <button class="morebutton">
+                            Daha fazla göster &nbsp; &nbsp; <i class="fas fa-angle-down"></i>
+                        </button>
                     </div>
                     <div class="hrline">
                         <hr>
                     </div>
                 </div>
-                <div class="cont-2">
-                    <div class="c21"><h4>Önerilen küçük topluluklar</div>
+                <div class="cont2">
+                    <div class="c21">
+                        <h4>Seveceğinizi düşündüğümüz Canlı kanallar</h4>
+                    </div>
                     <div class="c22">
                         <div class="c221">
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/f_cfKzbRwCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/f_cfKzbRwCo"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             <div class="c2211">
                                 <div class="c22111">
-                                    <img src="/assets/images/img1.png">                                
-                                    <div class="c221111">   
+                                    <img src="/assets/images/img1.png">
+                                    <div class="c221111">
                                         <h4>MACERA BAŞLASIN</h4>
                                         <p>samedgungor2013</p>
                                         <p>Dying Light</p>
@@ -615,11 +645,14 @@
                             </div>
                         </div>
                         <div class="c221">
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/bjesvxTCnwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/bjesvxTCnwE"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             <div class="c2211">
                                 <div class="c22111">
-                                    <img src="/assets/images/jaho.png">                                
-                                    <div class="c221111">   
+                                    <img src="/assets/images/jaho.png">
+                                    <div class="c221111">
                                         <h4>Pummel Party [ #1 ]</h4>
                                         <p>Jahrein</p>
                                         <p>Pummel Party</p>
@@ -634,12 +667,15 @@
                             </div>
                         </div>
                         <div class="c221">
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/AyeMMydC8UQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/AyeMMydC8UQ"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             <div class="c2211">
                                 <div class="c22111">
-                                    <img src="/assets/images/closer.png">                                
-                                    <div class="c221111">   
-                                        <h4>100Thieves Ofis VLOG  QWEJQJEQWEQWEWQE</h4>
+                                    <img src="/assets/images/closer.png">
+                                    <div class="c221111">
+                                        <h4>100Thieves Ofis VLOG | MİLYON DOLARLIK TUR!</h4>
                                         <p>Closer</p>
                                         <p>Sadece Sohbet</p>
                                         <div class="category">
@@ -653,11 +689,14 @@
                             </div>
                         </div>
                         <div class="c221">
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/aQy7y1bAKn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/aQy7y1bAKn4"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             <div class="c2211">
                                 <div class="c22111">
-                                    <img src="/assets/images/img7.png">                                
-                                    <div class="c221111">   
+                                    <img src="/assets/images/img7.png">
+                                    <div class="c221111">
                                         <h4>CADILAR MECLİSİNDEYİZ</h4>
                                         <p>Uthenera</p>
                                         <p>Teamfight Tactics</p>
@@ -671,7 +710,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="line">
@@ -679,23 +718,28 @@
                         <hr>
                     </div>
                     <div class="viewmore">
-                       <button class="morebutton">
-                           Daha fazla göster &nbsp; &nbsp; <i class="fas fa-angle-down"></i>
-                        </button>                      
+                        <button class="morebutton">
+                            Daha fazla göster &nbsp; &nbsp; <i class="fas fa-angle-down"></i>
+                        </button>
                     </div>
                     <div class="hrline">
                         <hr>
                     </div>
                 </div>
-                <div class="cont-2">
-                    <div class="c21"><h4>Önerilen <a href="#">Sadece Sohbet</a> kanalları</h4></div>
+                <div class="cont2">
+                    <div class="c21">
+                        <h4>Seveceğinizi düşündüğümüz Canlı kanallar</h4>
+                    </div>
                     <div class="c22">
                         <div class="c221">
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/f_cfKzbRwCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/f_cfKzbRwCo"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             <div class="c2211">
                                 <div class="c22111">
-                                    <img src="/assets/images/img1.png">                                
-                                    <div class="c221111">   
+                                    <img src="/assets/images/img1.png">
+                                    <div class="c221111">
                                         <h4>MACERA BAŞLASIN</h4>
                                         <p>samedgungor2013</p>
                                         <p>Dying Light</p>
@@ -710,11 +754,14 @@
                             </div>
                         </div>
                         <div class="c221">
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/bjesvxTCnwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/bjesvxTCnwE"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             <div class="c2211">
                                 <div class="c22111">
-                                    <img src="/assets/images/jaho.png">                                
-                                    <div class="c221111">   
+                                    <img src="/assets/images/jaho.png">
+                                    <div class="c221111">
                                         <h4>Pummel Party [ #1 ]</h4>
                                         <p>Jahrein</p>
                                         <p>Pummel Party</p>
@@ -729,12 +776,15 @@
                             </div>
                         </div>
                         <div class="c221">
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/AyeMMydC8UQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/AyeMMydC8UQ"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             <div class="c2211">
                                 <div class="c22111">
-                                    <img src="/assets/images/closer.png">                                
-                                    <div class="c221111">   
-                                        <h4>100Thieves Ofis VLOG  QWEJQJEQWEQWEWQE</h4>
+                                    <img src="/assets/images/closer.png">
+                                    <div class="c221111">
+                                        <h4>100Thieves Ofis VLOG | MİLYON DOLARLIK TUR!</h4>
                                         <p>Closer</p>
                                         <p>Sadece Sohbet</p>
                                         <div class="category">
@@ -748,11 +798,14 @@
                             </div>
                         </div>
                         <div class="c221">
-                            <iframe width="300" height="200" src="https://www.youtube.com/embed/aQy7y1bAKn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="200" src="https://www.youtube.com/embed/aQy7y1bAKn4"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                             <div class="c2211">
                                 <div class="c22111">
-                                    <img src="/assets/images/img7.png">                                
-                                    <div class="c221111">   
+                                    <img src="/assets/images/img7.png">
+                                    <div class="c221111">
                                         <h4>CADILAR MECLİSİNDEYİZ</h4>
                                         <p>Uthenera</p>
                                         <p>Teamfight Tactics</p>
@@ -766,7 +819,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="line">
@@ -774,19 +827,21 @@
                         <hr>
                     </div>
                     <div class="viewmore">
-                       <button class="morebutton">
-                           Daha fazla göster &nbsp; &nbsp; <i class="fas fa-angle-down"></i>
-                        </button>                      
+                        <button class="morebutton">
+                            Daha fazla göster &nbsp; &nbsp; <i class="fas fa-angle-down"></i>
+                        </button>
                     </div>
                     <div class="hrline">
                         <hr>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
     <script src="assets\scripts\main.js"></script>
     <script src="assets\scripts\slider.js"></script>
+
 </body>
+
 </html>
