@@ -42,11 +42,12 @@
             <div class="sidebar">
                 <div class="side1">
                     <div class="s1">
-                        <a href="#directory/following" id="hide3"><img src="assets\images\follow.png"></a>
                         <p id="s11">TAKİP EDİLEN KANALLAR</p>
                         <button onclick="myFunction()" id="s11"><img src="/assets/images/left.png"></button>
+                        <button onclick="myFunction2()" id="right"><img src="/assets/images/left.png"></button>
                     </div>
                     <div class="s2">
+                        <img src="assets\images\follow.png" id="hide3">
                         <a href="#">
                             <div class="s21">
                                 <div class="s211">
@@ -132,6 +133,7 @@
                         <p>ÖNERİLEN KANALLAR</p>
                     </div>
                     <div class="s2">
+                        <img src="assets\images\onerilenkanallar.png" id="hide3">
                         <a href="#">
                             <div class="s21">
                                 <div class="s211">
@@ -228,15 +230,13 @@
                             <p>Daha Fazla Göster</p>
                         </a></div>
                 </div>
-                <div class="side2">
-                    <div class="side-2" id="side-2">
-                        <input type="text" placeholder="Arkadaş Eklemek İçin Ara" name="search">
-                    </div>
+                <div class="side2" id="side2">
+                    <input type="text" placeholder="   Arkadaş Eklemek İçin Ara" name="search">
                 </div>
             </div>
             <div class="content">
                 <div class="cont1">
-                    <!--<div class="slideshow-container">
+                    <div class="slideshow-container">
                         <div class="mySlides fade">
                             <div class="numbertext">1 / 3</div>
                             <iframe width="500" height="300" src="https://www.youtube.com/embed/f_cfKzbRwCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -262,25 +262,6 @@
                             <span class="dot" onclick="currentSlide(2)"></span>
                             <span class="dot" onclick="currentSlide(3)"></span>
                         </div>
-                
-                    </div>-->
-                    <div class="contentcover">
-                        <div class="arrow">
-                            <a><i class="fas fa-chevron-left"></i></a>
-                        </div>
-                        <div class="mainvideos">
-                            <div class="mainvid">
-                                <iframe width="500" height="300" src="https://www.youtube.com/embed/f_cfKzbRwCo"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="arrow">
-                            <a><i class="fas fa-chevron-right"></i></a>
-                        </div>
-
-
                     </div>
                 </div>
                 <div class="cont2">
@@ -857,9 +838,10 @@
 
             </div>
         </div>
-        <div class="footer"></div>
     </div>
     <script src="assets\scripts\main.js"></script>
+    <script src="assets\scripts\slider.js"></script>
+
 </body>
 
 </html>

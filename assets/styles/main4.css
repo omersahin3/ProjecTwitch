@@ -6,10 +6,12 @@
 body { 
     font-family: 'Segoe UI', Tahoma, sans-serif;
     background-color: black;
+    overflow-y: hidden;
+    overflow-x: hidden; 
 }
 .main {
     display: flex;
-    height:100%;
+    height:100vh;
     width:100%;
     flex-direction: column;
 }
@@ -18,8 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 7%;
-    padding: 0.4% 0.5%;
+    height: 6%;
 }
     .left {
         display: flex;
@@ -27,6 +28,7 @@ body {
         align-items: center;
         width: 21%;
         min-width: 190px;
+        max-width: 320px;
     }
     .left a {
         color: white;
@@ -53,9 +55,10 @@ body {
         color: white;
         font-size: 15px;
         border: none;
-        border-radius: 7%;
+        border-radius: 15px 0% 0% 15px;
         width: 37%;
-        margin-left: 29%;
+        max-width: 356px;
+        margin-left: 35%;
         margin-right: 0.1%;
     }
     .center button {
@@ -64,6 +67,7 @@ body {
         color: white;
         font-size: 15px;
         border: none;
+        border-radius: 0% 15px 15px 0%;
         /*border-radius: 7%; */
     }
     .center button:hover {
@@ -72,6 +76,7 @@ body {
     .right {
         width: 18%;
         min-width: 200px;
+        max-width: 270px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -112,15 +117,16 @@ body {
         width: 32px;
     }
 .body {
-    height: 93%;
+    height: 94%;
     display: flex;
     flex-direction: row;
 }
     .sidebar {
         background-color: #1F1F23;;
         width: 16%;
+        max-width: 240px;
         min-width: 230px;
-        height: calc(100vh - 7vh);
+        height: calc(100vh - 6vh);
         display: flex;
         flex-direction: column;
     }
@@ -133,7 +139,7 @@ body {
                 flex-direction: row;
                 align-items: center;
                 justify-content: space-between;
-                padding: 2.5% 0%;
+                padding: 4% 0%;
             }
             .s1 p {
                 color: white;
@@ -154,11 +160,14 @@ body {
                 display: flex;
                 flex-direction: column;
             }
+            .s2 a{
+                text-decoration: none;
+            }
             .s2 img {
                 width: 30px;
                 height: 30px;
                 border-radius: 50%;
-                margin: 0px 7px;
+                margin: 0px 10px;
             }
             .s2 h4{
                 color: whitesmoke;
@@ -177,7 +186,7 @@ body {
                     flex-direction: row;
                     align-items: center;
                     justify-content: space-between;
-                    padding: 3% 0%;
+                    padding: 2% 0%;
                 }
                     .s211{
                         display: flex;
@@ -212,30 +221,39 @@ body {
             .s3 a:hover{
                 text-decoration: underline;
             }
-        .side-2 {
+        .side2 {
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 3% 0%;
         }
-        .side-2 input {
-            padding: 2% 0%;
+        .side2 input {
+            padding: 4% 0%;
             background: #505050;
             color: white;
             font-size: 12px;
             border: none;
             border-radius: 10%;
+            margin-top: 95%;
         }
-        .side-2 input {
+        .side2 input {
             width: 90%;
+            border-radius: 15px 15px 15px 15px;
         }
-        .side-2 input:hover {
+        .side2 input:hover {
             border: 1px solid #888888;
+        }
+        /* Center input'da değiştiriliyor*/
+        input[type=text]:focus {
+            border: 3px solid blueviolet;
+            background-color: black;
         }
     .content {
         display: flex;
         flex-direction: column;
         flex: 1;
+        overflow-y: auto; 
+        overflow-x: hidden;
     }
         .cont1 {
             display: flex;
@@ -408,9 +426,6 @@ body {
                         display: flex;  
                         color: whitesmoke;
                     }         
-.footer {
-    height: 10%;
-}
 .line
 {
     display:flex;
@@ -441,9 +456,18 @@ hr{
 .hrline2 {
     margin: 0% 3% 3% 3%;
 }
-#hide2 img{
+#hide2 img {
     width: 17px;
     height: 17px;
+}
+#hide3 {
+    width: 17px;
+    height: 17px;
+    margin: 15px 0px 10px 15px;
+}
+#right {
+    display: none;
+    transform: rotate(180deg);
 }
 @media (max-width: 1439.98px) { 
     .left a {
@@ -468,11 +492,18 @@ hr{
     #visible1 {
         visibility: visible;
     }
-    .sidebar {
+    .sidebar h4,.sidebar p,.sidebar button, .sidebar input, .renk{
         display: none;
     }
-    .s211 {
-        visibility: visible;
+    #s11 {
+        display: none;
+    }
+    .sidebar {
+        min-width: 50px;
+        width: 50px;
+    }
+    .s2 img {
+        margin-top: 7px;
     }
  }
  @media (min-width: 770px) { 
